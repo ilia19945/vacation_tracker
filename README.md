@@ -4,8 +4,8 @@ The database is created along with all necessary data.
 
 The purpose of the application is:
 1. To allow Agents to submit and keep tracking their vacation requests as well as to be able to see how many vacation days left they have by current date
-2. To give Supervisors and Managers to be the ability to review and approve/deny agents' requests
-3. To provide access to HR team the infrormation about the overall list of agents and their vacation submissions to be able to communicate and perform their own tasks.
+2. To give Supervisors and Managers the ability to review and approve/deny agents' requests
+3. Providing access to HR team of the information about the overall list of agents and their vacation submissions, so that they are able to communicate and perform their own tasks based on this infromation.
 
 
 # 🏃‍♂️ How to run project: 
@@ -21,14 +21,14 @@ The example of structure consists of a few core roles and is shown below:
 Example Org. Structure:  
   - **CEO** (is supposed to see the list of employees, assigned with the **Leadership** group)
     - SV1 (assigned to **Supervisors** group):
-        - agent1
-        - agent2
-    - SV2 (assigned to **Vacation tracker** group):
-        - agent3
-        - agent4
+        - agent1 (assigned to **Vacation tracker** group)
+        - agent2 (assigned to **Vacation tracker** group)
+    - SV2 (assigned to **Supervisors** group):
+        - agent3 (assigned to **Vacation tracker** group)
+        - agent4 (assigned to **Vacation tracker** group)
         
--	itSupportAgent - they have access to the whole list of employees to be able to troubleshoot/investigate issues 
-- peopleTeamUser - HR department user - suppose to have full access to every site section
+-	itSupportAgent - they have access to the whole list of employees to be able to troubleshoot/investigate issues (can be added to a specific group or assigned with necessary permissions directly)
+- peopleTeamUser - HR department user - suppose to have full access to every site section (assigned to **People Team** group)
 
 
 # 🧠 Business logic of the app:
