@@ -34,8 +34,8 @@ Example Org. Structure:
 # 🧠 Business logic of the app:
 * . When the new hire is coming to the company:
   - **itSupportAgent** is responsible to ensure the account is created and the necessary groups are assigned (Vacation tracker is an essential group that gives access to employee's vacation days left and to submit vacation requests)
-  - The **peopleTeamUser** is responsible to add the new hire to the Employees list and to make sure the Employees information provided is correct (especially: **Start date, Supervisor and Extra Supervisors**) as well as setting the **end date** when the existing employee is terminated.
-    - ‼ In order to prevent the private infromation about the employees to be available to everyone who has access to Emplyees a custom logic is applied:  
+  - The **peopleTeamUser** is responsible to add the new hire to the Employees list and to make sure the Employees information provided is correct (especially: **Start date, Supervisor and Extra Supervisors**) as well as setting the **end date** when the existing employee is terminated.  
+❗ In order to prevent spreading the personal infromation about the employees across multiple teams to everyone who has access to Emplyees a custom restriction is applied:  
       - the Supervisor can only see employees and vacation submissions from employees he / she supervises. 
  
 * When the Agent, Supervisor, CEO, etc are going to go on the vacation:
