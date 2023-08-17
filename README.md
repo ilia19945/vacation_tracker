@@ -15,7 +15,7 @@ The purpose of the application is:
 - Go to ```http://127.0.0.1:8000/admin/``` and use ```admin:admin``` to login to admin console  
 --------------------------------------------------
 # 🤔 How to use the app: 
-* Feel free to log in using superuser to inspect groups and users sections as we all vacation tracker itself. 
+* Feel free to log in using the superuser to inspect groups and users sections of vacation tracker yourself. 
 
 The example of structure consists of a few core roles and is shown below:
 Example Org. Structure:  
