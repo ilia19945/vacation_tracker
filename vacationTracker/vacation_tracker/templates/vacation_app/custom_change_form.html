@@ -1,0 +1,12 @@
+{% extends "admin/change_form.html" %}
+
+{% block content %}
+
+    <div class="form-row field-days_left_for_request_form">
+        <div>
+            <label class="required">Your vacation days left:</label>
+            <p>{{ days_left }}</p>
+        </div>
+    </div>
+    {{ block.super }}
+{% endblock %}
